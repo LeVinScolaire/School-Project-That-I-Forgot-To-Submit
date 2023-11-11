@@ -1,0 +1,97 @@
+#body1 {
+    background-color: #001524;
+}
+#body2 {
+    background-color: #86A397;
+}
+#body3 {
+    background-color: #E1B07E;
+}
+.title h1 {
+    height: fit-content;
+    width: 400px;
+    font-family:cursive;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #FFECD1;
+}
+ .title a, .choices a{
+    text-decoration: none;
+    color: #FFECD1;
+}
+ .title a:hover, .choices a:hover{
+    color: #FF7D00;
+}
+.choices {
+    height: 200px;
+    width: 500px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 10px;
+    color: #FFECD1;
+    background-color: #062837;
+    border: 4px solid #0B3B49;
+    overflow: scroll;
+    text-align: center;
+}
+
+.choices table{
+    margin: auto;
+}
+.choices td{
+    padding:5px;
+}
+.choices td:hover{
+    color: #FF7D00;
+}
+
+.clearl{
+    clear: left;
+}
+#num2 {
+    color: #001524;
+}
+#password {  
+    margin: 100px auto;  
+    width: fit-content;  
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 4px;
+    border: 4px solid #0B3B49;
+    background-color: #062837;
+    }   
+#keyboard {  
+    margin: 0;  
+    padding: 0;  
+    list-style: none;  
+    text-decoration: none;
+    color: #001524;
+    }  
+#keyboard li {  
+    float: left;  
+    margin: 0 5px 5px 0;  
+    width: 60px;  
+    height: 60px;  
+    font-size: 24px;
+    line-height: 60px;  
+    text-align: center;  
+    background: #FFECD1;  
+    border: 1px solid #0B3B49;  
+    border-radius: 5px;  
+    }  
+    .numpad a, .letter a{
+        color: #001524;
+        text-decoration: none;
+    }
+    .numpad a:visited, .letter a:visited{
+        color: #001524;
+        text-decoration: none;
+    }
+#keyboard li:hover {  
+    position: relative;   
+    border-color: #FF7D00;  
+    cursor: pointer;  
+}  
